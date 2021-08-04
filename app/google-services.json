@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "429344154809",
+    "project_id": "streamfun-4031d",
+    "storage_bucket": "streamfun-4031d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429344154809:android:7938340d4182dc44492768",
+        "android_client_info": {
+          "package_name": "com.example.streamfun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "429344154809-3a9f2ksn9o213e0sm3m2jjlfo0aenod8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz7gdWmnwklknjC6zRfG9ODgM45fuT5rM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "429344154809-3a9f2ksn9o213e0sm3m2jjlfo0aenod8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/manage_profile"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="@string/manage_profile"
+        android:actionLayout="@layout/custom_toolbar"
+        android:onClick="ManageProfile"
+        />
+    <item android:id="@+id/logout"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="@string/logout"
+        android:actionLayout="@layout/custom_toolbar"
+        android:onClick="LogoutMe"
+        />
+
+
+
+</menu>

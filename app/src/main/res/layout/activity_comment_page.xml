@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CommentPage">
+    <include layout="@layout/custom_toolbar_cmnt"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+
+        >
+        <EditText
+            android:id="@+id/cmnt_textView"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="10dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:layout_height="wrap_content"
+            android:hint="@string/write_comment"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/cmnt_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="@string/comment"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:background="@color/themecolor"
+            android:textColor="@color/white"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/cmnt_rcview"/>
+    </LinearLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

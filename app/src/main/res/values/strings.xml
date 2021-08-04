@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">StreamFun</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="enter_password">enter password</string>
+    <string name="enter_email">enter email</string>
+    <string name="already_registered">Already registered?</string>
+    <string name="enter_your_email">enter your email</string>
+    <string name="enter_your_password">enter your password</string>
+    <string name="log_in">log in</string>
+    <string name="upload">Upload</string>
+    <string name="choose_video">Choose Video</string>
+    <string name="enter_video_name">enter video name</string>
+    <string name="video_title">Video Title</string>
+    <string name="manage_profile">Manage Profile</string>
+    <string name="logout">logout</string>
+    <string name="likes">likes</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="enter_your_name">enter your name</string>
+    <string name="write_comment">write comment</string>
+    <string name="comment">comment</string>
+    <string name="user_name">User Name</string>
+</resources>
